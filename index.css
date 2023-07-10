@@ -1,0 +1,79 @@
+.bannerBgImage{
+    height:100vh;
+    background: url(images/back1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: right;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: cornsilk;
+}
+.bannerTitle{
+    font-size: 2rem;
+    color: ghostwhite;
+    margin-right: 15%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.bannerDesc{
+    font-size: 1rem;
+    color:red;
+    margin-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container-about-me{
+    margin-top: 5%;
+}
+.container-Services{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Row-Pad{
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.Box-Img{
+    width: 100%;
+    
+}
+.card{
+    cursor:pointer;
+    
+}
+.card:hover{
+    background-color: aqua;
+    border: 5px solid red;
+}
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.form-Q1{
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: chocolate;
+}
+.form-Q2{
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: chocolate;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+.col-auto1{
+    text-align: center;
+}
+.transparent-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for desired transparency */
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+  }
